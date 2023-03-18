@@ -1,0 +1,4 @@
+prefix = 'g '
+bot_token = 'Your discord Bot token'
+default_destination_id = 'Default Destination Folder ID'
+# Do not forget to rename this file as .env

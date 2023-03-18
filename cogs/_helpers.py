@@ -19,7 +19,7 @@ logging.getLogger('googleapiclient.discovery').setLevel(logging.ERROR)
 
 
 def embed(title,description,url=None):
-    em = discord.Embed(title=title,description=description,color=discord.Color.green(),url="https://github.com/jsmsj/gdriveclonebot",timestamp=datetime.now())
+    em = discord.Embed(title=title,description=description,color=discord.Color.green(),url="https://github.com/jsmsj/GcloneDiscordify",timestamp=datetime.now())
     em.set_footer(text="Made with 💖 by jsmsj.")
     if url:
         btn = Button(label="Link",url=url)
